@@ -1,0 +1,74 @@
+.data-table {
+  border: 1px solid black;
+  padding: 8px;
+  margin: auto;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+table th:hover {
+  cursor: pointer;
+}
+
+table .desc:after {
+  content: " ▲";
+}
+table .asc:after {
+  content: " ▼";
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.search-input {
+  width: 200px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+
+.sort-btn {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #eee;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.pagination {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.prev-btn,
+.next-btn {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #eee;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.page-num {
+  padding: 0 10px;
+}
